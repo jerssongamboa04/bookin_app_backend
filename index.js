@@ -32,9 +32,9 @@ app.use("/", router);
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req,res)=> {
-res.send("la pagina de inicion desde app")
-})
+// app.get("/", (req,res)=> {
+// res.send("la pagina de inicion desde app")
+// })
 
 
 app.listen(PORT, () => {

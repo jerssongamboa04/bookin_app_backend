@@ -11,11 +11,6 @@ app.use("/", router);
 app.use(cors());
 app.use(express.json());
 
-// app.get("/", (req,res)=> {
-// res.send("la pagina de inicion desde app")
-// })
-
-
 app.listen(PORT, () => {
     console.log(`server listering on port ${PORT}`);
 
